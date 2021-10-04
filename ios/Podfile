@@ -12,6 +12,8 @@ target 'GladTithings' do
     :hermes_enabled => false
   )
 
+  pod 'RNPaypal', :path => '../node_modules/react-native-paypal-lib'
+
   target 'GladTithingsTests' do
     inherit! :complete
     # Pods for testing
