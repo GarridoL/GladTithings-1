@@ -90,6 +90,7 @@
     "react-native-modal-selector": "^1.1.4",
     "react-native-multiple-select-list": "^1.0.4",
     "react-native-neomorph-shadows": "^1.1.2",
+    "react-native-notification-sounds": "^0.5.3",
     "react-native-notifications": "^3.1.1",
     "react-native-paypal-lib": "^1.0.9",
     "react-native-permissions": "^2.0.10",
