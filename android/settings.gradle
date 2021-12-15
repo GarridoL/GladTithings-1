@@ -1,4 +1,6 @@
 rootProject.name = 'GladTithings'
+include ':react-native-streetview'
+project(':react-native-streetview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-streetview/android')
 include ':react-native-paypal-lib'
 project(':react-native-paypal-lib').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-paypal-lib/android')
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
