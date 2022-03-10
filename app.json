@@ -1,4 +1,15 @@
 {
   "name": "GladTithings",
-  "displayName": "GladTithings"
+  "displayName": "GladTithings",
+  "expo": {
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.appgladtithings.gladtithings",
+          "enableGooglePay": true
+        }
+      ]
+    ]
+  }
 }
